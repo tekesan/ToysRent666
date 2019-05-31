@@ -1,0 +1,86 @@
+body {
+    display: flex;
+    background: url(../images/background.png) center center;
+    min-height: 100vh;
+    align-items: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+p {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    height: 35px;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid #000000;
+    background: transparent;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    display: block;
+    width: 100%;
+    margin: 30px 0 20px 0;
+    height: 40px;
+    background: #207dff;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+    background: #1d70c2;
+}
+
+button:hover {
+    background: #1d70c2;
+}
+
+.login-box {
+    width: 50%;
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+
+.login-header {
+    text-align: center;
+    color: #207dff;
+}
+
+.register-box {
+    width: 50%;
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+
+.form-box {
+    width: 100%;
+    padding: 10px;
+}
+
+
